@@ -1,6 +1,7 @@
 # 2024학년도 1학기 프로그래밍 클러스터 강의 학습자료
 
-[개발 환경 설정](https://github.com/Goodgaym/202301PthCluster/blob/master/Week0_Installation/_Contents.md)  
+### [개발 환경 설정](https://github.com/Noobgods/202401PthCluster/blob/main/00Installation/_Contents.md)  
+### [1주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/01Basic/_Contents.md)
 <br/><br/><br/>
 
 - - - 

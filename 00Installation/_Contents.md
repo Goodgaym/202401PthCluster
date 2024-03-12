@@ -81,11 +81,12 @@ Visual Studio Code 설치파일 다운로드 후 설치, 실행
 ## 2. Extensions 설치
 <img src="./_img/VSCode_01_Extensions.png" width="20%" height="20%" title="VSCode01" alt="VSCode"></img>   
 사이드 바에서 Extensions를 누르고 위의 캡쳐의 검색창에 설치할 Extension 검색 후 "Install" 클릭   
-아래 두개의 Extension 검색 후 설치
-```
-Code Runner
-C/C++ extension pack
-```
+
+또는 아래 링크를 누르면 Visual Studio Code에서 해당 Extension 탭이 열립니다.
+
+### [Code Runner](vscode:extension/donjayamanne.python-extension-pack) 
+### [C/C++ extension pack](vscode:extension/ms-vscode.cpptools-extension-pack)
+
 
 <br/>
 <br/>
@@ -115,12 +116,12 @@ C/C++: Edit Configurations(UI) 검색하고 선택
 
 <br/>
 
-Compliler Path    
-**MinGW 파일 경로 \bin\g++.exe** 입력
+-  **Compliler Path**    
+`{MinGW 파일 경로}\bin\gcc.exe` 입력   
+예 : C:\MinGW64\bin\gcc.exe
 
-IntelliSense mode   
-**windows-gcc-x86** 선택
-
+- **IntelliSense mode**   
+`windows-gcc-x86` 선택
 
 이제 Code runner extension을 이용하여 간편하게 실행하면 된다.
 
