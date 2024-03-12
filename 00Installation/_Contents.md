@@ -82,10 +82,10 @@ Visual Studio Code 설치파일 다운로드 후 설치, 실행
 <img src="./_img/VSCode_01_Extensions.png" width="20%" height="20%" title="VSCode01" alt="VSCode"></img>   
 사이드 바에서 Extensions를 누르고 위의 캡쳐의 검색창에 설치할 Extension 검색 후 "Install" 클릭   
 
-또는 아래 링크를 누르면 Visual Studio Code에서 해당 Extension 탭이 열립니다.
-
 ### [Code Runner](vscode:extension/donjayamanne.python-extension-pack) 
 ### [C/C++ extension pack](vscode:extension/ms-vscode.cpptools-extension-pack)
+
+또는 VSCode에서 이 파일을 본다면 위 링크로 Visual Studio Code에서 해당 Extension 탭이 열립니다.
 
 
 <br/>
