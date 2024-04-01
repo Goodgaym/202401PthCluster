@@ -3,6 +3,8 @@
 ### [개발 환경 설정](https://github.com/Noobgods/202401PthCluster/blob/main/00Installation/_Contents.md)  
 ### [1주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/01Basic/_Contents.md) 
 ### [2주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/02Operator/_Contents.md)
+### [3주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/03Conditionals/_Contents.md)
+### [4주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/04Loop/_Contents.md)
 <br/><br/><br/>
 
 - - - 
