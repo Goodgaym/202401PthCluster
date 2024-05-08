@@ -1,13 +1,6 @@
 # 2024학년도 1학기 프로그래밍 클러스터 강의 학습자료
 
-### [개발 환경 설정](https://github.com/Noobgods/202401PthCluster/blob/main/00Installation/_Contents.md)  
-### [1주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/01Basic/_Contents.md) 
-### [2주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/02Operator/_Contents.md)
-### [3주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/03Conditionals/_Contents.md)
-### [4주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/04Loop/_Contents.md)
-### [5주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/05Array/_Contents.md)
-### [6주차 강의자료](https://github.com/Noobgods/202401PthCluster/blob/main/06Function/_Contents.md)
-<br/><br/><br/>
+### 강의설명 링크는 해당 주차의 강좌내용을 누르면 나옵니다.
 
 - - - 
 ## 강좌 일정
