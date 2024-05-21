@@ -14,8 +14,8 @@
 |05  |04.08   |[배열, 다중 반복](https://github.com/Noobgods/202401PthCluster/blob/main/05Array/_Contents.md)                   | +1 시간
 |06  |04.15   |[함수](https://github.com/Noobgods/202401PthCluster/blob/main/06Function/_Contents.md)                           | +1 시간
 |07  |04.22   |                                         | 중간고사 휴강
-|08  |05.13   |구조체, 열거형                           | +1 시간
-|09  |05.20   |정렬, 탐색                               | +1 시간
+|08  |05.13   |[구조체, 열거형](https://github.com/Noobgods/202401PthCluster/blob/main/07Struct/_Contents.md)                   | +1 시간
+|09  |05.20   |[정렬, 탐색](https://github.com/Noobgods/202401PthCluster/blob/main/08Algorithm/_Contents.md)                    | +1 시간
 |10  |05.27   |프로젝트 기획                            |
 |11  |06.03   |프로젝트 수행                            |
 |12  |06.10   |프로젝트 수행                            |
