@@ -3,8 +3,14 @@
 
 int main(){
     int *array, i, size = 3;
-    //array = (int*)malloc(sizeof(int) * size); // 메모리 할당 (초기화 X)
-    array = (int*)calloc(size, sizeof(int));    // 메모리 할당 (0으로 초기화)
+    // malloc : 초기화없이 메모리 동적 할당
+    // calloc : 0으로 초기화 하며 메모리 동적 할당
+
+    //array = (int*)malloc(sizeof(int) * size);
+    array = (int*)calloc(size, sizeof(int));
+    
+    //void* malloc(size) : size = 할당할 메모리의 크기
+    //void* calloc(count, size) : count = 변수 개수, size = 할당할 변수의 크기
 
     /*
     array[0] = 12;
