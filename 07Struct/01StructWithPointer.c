@@ -1,27 +1,27 @@
 #include <stdio.h>
 
-// typedef¸¦ ÀÌ¿ëÇØ ±¸Á¶Ã¼ ÀÌ¸§À¸·Î ÀÚ·áÇüÀ» ¼±¾ğÇÒ ¼ö ÀÖ´Ù.
+// typedefë¥¼ ì´ìš©í•´ êµ¬ì¡°ì²´ ì´ë¦„ìœ¼ë¡œ ìë£Œí˜•ì„ ì„ ì–¸í•  ìˆ˜ ìˆë‹¤.
 typedef struct
 { 
-    int number; // ¸â¹öº¯¼ö
+    int number; // ë©¤ë²„ë³€ìˆ˜
     char name[20];
     float score;
 } student;
 
-void inputStudentInfo(student* std);    // Æ÷ÀÎÅÍ ±¸Á¶Ã¼ º¯¼ö¸¦ ÀÎÀÚ·Î ¹ŞÀ½
-void printStudentInfo(student std);     // ±¸Á¶Ã¼ º¯¼ö¸¦ ÀÎÀÚ·Î ¹ŞÀ½
+void inputStudentInfo(student* std);    // í¬ì¸í„° êµ¬ì¡°ì²´ ë³€ìˆ˜ë¥¼ ì¸ìë¡œ ë°›ìŒ
+void printStudentInfo(student std);     // êµ¬ì¡°ì²´ ë³€ìˆ˜ë¥¼ ì¸ìë¡œ ë°›ìŒ
 
 int main(){
     student std[4] = {
-        { 11017, "°­º­¸®", },
-        { 10704, "±è¼º¹Î", },
-        { 10809, "±èÇÏÀ²", },
-        { 10311, "¹®¼ºÁØ", },
-    }; // ÇĞ»ıµé µ¥ÀÌÅÍ
-    float input_score; // ÀÔ·Â¹ŞÀ» µ¥ÀÌÅÍ
+        { 11017, "ê°•ë²¼ë¦¬", },
+        { 10704, "ê¹€ì„±ë¯¼", },
+        { 10809, "ê¹€í•˜ìœ¨", },
+        { 10311, "ë¬¸ì„±ì¤€", },
+    }; // í•™ìƒë“¤ ë°ì´í„°
+    float input_score; // ì…ë ¥ë°›ì„ ë°ì´í„°
     int i;
 
-    printf("ÇĞ»ıµéÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä.\n");
+    printf("í•™ìƒë“¤ì˜ ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”.\n");
     for (i = 0; i<4; i++)
     {
         inputStudentInfo(&std[i]);
@@ -35,10 +35,10 @@ int main(){
 }
 
 void inputStudentInfo(student* std){
-    printf("%d %s ¼ºÀû ÀÔ·Â : ", std->number, std->name);  // Æ÷ÀÎÅÍ ±¸Á¶Ã¼ º¯¼öÀÇ ¸â¹ö º¯¼ö¿¡ Á¢±ÙÇÏ±â À§ÇØ¼± '->' ¿¬»êÀÚ »ç¿ë
+    printf("%d %s ì„±ì  ì…ë ¥ : ", std->number, std->name);  // í¬ì¸í„° êµ¬ì¡°ì²´ ë³€ìˆ˜ì˜ ë©¤ë²„ ë³€ìˆ˜ì— ì ‘ê·¼í•˜ê¸° ìœ„í•´ì„  '->' ì—°ì‚°ì ì‚¬ìš©
     scanf("%f", &std->score);
 }
 
 void printStudentInfo(student std){
-    printf("%-7d %s %.2f\n", std.number, std.name, std.score);  // ÀÏ¹İ ±¸Á¶Ã¼ º¯¼öÀÇ ¸â¹ö º¯¼ö¿¡ Á¢±ÙÇÏ±â À§ÇØ¼± '.' ¿¬»êÀÚ »ç¿ë 
+    printf("%-7d %s %.2f\n", std.number, std.name, std.score);  // ì¼ë°˜ êµ¬ì¡°ì²´ ë³€ìˆ˜ì˜ ë©¤ë²„ ë³€ìˆ˜ì— ì ‘ê·¼í•˜ê¸° ìœ„í•´ì„  '.' ì—°ì‚°ì ì‚¬ìš© 
 }

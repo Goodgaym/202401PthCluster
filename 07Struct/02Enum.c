@@ -22,8 +22,10 @@ int main(){
         {
             case START:
                 printf("숫자를 입력하세요 : "); scanf("%d", &input);
-                if(input == answer) printf("정답입니다!\n");
-                else printf("틀렸습니다!\n");
+                if(input == answer) 
+                    printf("정답입니다!\n");
+                else 
+                    printf("틀렸습니다!\n");
                 break;
 
             case CHECK: 
